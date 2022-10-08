@@ -15,7 +15,9 @@ body {
     line-height: 1.8;
     background-color: var(--bg1);
 }
-
+h1 {
+    font-weight: 900;
+}
 .text-primary {
     color:rgb(194, 141, 42) !important;} 
 
@@ -59,7 +61,10 @@ section{
     margin-bottom: 25px;
     color: var(--p);
 }
-
+#banner h1 {
+    font-weight: 900;
+    font-style: italic;
+}
 /*  button */
 .btn {
     padding:  15px 30px;
@@ -174,7 +179,9 @@ section{
     margin-bottom: 60px;
     background-color: var(--bg1)!important;
     cursor: pointer;
+    max-height: 500px;
 }
+
 .card-img {
     overflow: hidden;
     border-radius: 0%;
@@ -219,6 +226,8 @@ section{
    
 }
 
+
+
 #work::after {
     content: "";
     width: 100%;
@@ -239,6 +248,10 @@ section{
     cursor: pointer;
     overflow: hidden;
     transition: all 1s ease;
+    float: left;
+    width:  350px;
+    height: 350px;
+    object-fit: cover;
     
 }
 
@@ -293,6 +306,10 @@ section{
     background-size: cover;
     min-height: 100vh; }
 
+#appointment h2 {
+    font-weight: 800;
+}
+
 form {
     background-color: var(--bg2);
     z-index:1;
@@ -308,5 +325,14 @@ form .form-control , .form-select {
 
 form input , select {
     height: 50px;
+}
+
+
+footer {
+    background-color: var(--bg1);
+}
+
+#footer h2 {
+    font-weight: 700;
 }
 
